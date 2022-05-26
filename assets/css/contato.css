@@ -1,0 +1,74 @@
+header {
+  background-color: #bbbbbb;
+  padding: 20px 0;
+}
+
+.container {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #c78c19;
+  text-decoration: underline;
+}
+
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 40px 0;
+}
+
+form label,
+p {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.input-padrao {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+.checkbox {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  background: url('/assets/images/footer/bg.jpg');
+  padding: 40px;
+}
+
+.copyright {
+  color: #bbbbbb;
+  font-size: 13px;
+  margin-top: 20px;
+}
